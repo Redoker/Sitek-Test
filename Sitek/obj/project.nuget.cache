@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XlyfKSG87OP3T7nKasXHt76mTuoM9TYU9LBmEtJCCPBh6UaKYo6QfN1Mlcb1Z9GOTuOwmnH+LDgpaP9UCDHr3A==",
+  "success": true,
+  "projectFilePath": "D:\\Apps\\pet projects\\Sitek\\Sitek\\Sitek.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
