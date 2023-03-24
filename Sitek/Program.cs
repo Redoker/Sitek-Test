@@ -53,13 +53,13 @@ namespace Sitek
 
             //через linq делаем сортировку и проходим по каждому элементу
             //если регион элемента равен 18, то выводим его данные
-            /*foreach (var item in jsonResponse.cus.OrderBy(x => x.type).ThenBy(x => x.code))
+            foreach (var item in jsonResponse.cus.OrderBy(x => x.type).ThenBy(x => x.code))
             {
                 if (item.region == "18")
                 {
                     Console.WriteLine($"{item.type}, {item.code}, {item.name}, {item.region}");
                 }
-            }*/
+            }
 
             ExcelWorksheet excelWorksheet = new ExcelWorksheet();
             excelWorksheet.CreateFile(jsonResponse);
